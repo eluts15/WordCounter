@@ -7,14 +7,16 @@ Simply type in a phrase along with your favorite word from the phrase and watch 
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
 | Application gets simple user input | "hello world" | hello world |
-| Application takes takes in user's phrase | "my my my my welcome, welcome, welcome, to the land of Expectations!" | my my my my welcome welcome welcome, to the land of Expectations! |
-| User specifies the word that they want to find frequency of if they wanted to find the frequency of the word "my" | my my my my welcome welcome welcome, to the land of Expectations! | 4 |
+| Application takes takes in user's phrase | "my, my, my, my, welcome, welcome, welcome, to the land of Expectations!" | my, my, my, my, welcome, welcome, welcome, to the land of Expectations! |
+| User specifies the word that they want to find frequency of if they wanted to find the frequency of the word "my" | my, my, my, my, welcome, welcome, welcome, to the land of Expectations! | 4 |
 
 ## Installation/Prerequisites
 
 Git Clone or Download at: https://github.com/eluts15/verbose-meme-team.git
 
+In order to get server up and running, run the following command:
 
+  dnx run (simply because kestrel is to hard to remember hehe.)
 
 Runs on the .Net Framework
 
@@ -44,6 +46,12 @@ Run dnu restore if necessary to update dependencies.
 ## Credits
 
 Motivating text from the Phantom Tollbooth by Norton Juster
+
+## Known Bugs
+
+In the case that nothing is entered and the form is submitted, the counter will still run.
+The outcome is it will still run and the outcome will be 1 instead of 0.
+
 
 ## License
 
