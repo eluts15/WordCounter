@@ -32,7 +32,7 @@ namespace WordCounter
       public void Test01_GetUserInputPhrase_ReturnsTrue()
       {
       //Arrange
-      WordRepeatCounter newRepeatedWord = new WordRepeatCounter("kittensNomNom", "shouldFail");
+      WordRepeatCounter newRepeatedWord = new WordRepeatCounter("kittensNomNom", "kittensNomNom");
       //Act
       string comparison01 = newRepeatedWord.GetUserInputPhrase();
       string comparison02 = newRepeatedWord.GetUsersWord();
