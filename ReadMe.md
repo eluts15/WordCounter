@@ -12,7 +12,7 @@ Simply type in a phrase along with your favorite word from the phrase and watch 
 
 ## Installation/Prerequisites
 
-Git Clone or Download at: https://github.com/eluts15/verbose-meme-team.git
+Git Clone or Download at: https://github.com/eluts15/verbose-meme-team-word-counter.git
 
 In order to get server up and running, run the following command:
 
@@ -49,7 +49,7 @@ Motivating text from the Phantom Tollbooth by Norton Juster
 
 ## Known Bugs
 
-In the case that nothing is entered and the form is submitted, the counter will still run.
+1. In the case that nothing is entered and the form is submitted, the counter will still run.
 The outcome is it will still run and the outcome will be 1 instead of 0.
 
 

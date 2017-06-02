@@ -29,6 +29,10 @@ namespace WordCounter
         {
           frequency++;
         }
+        // else if (userWord != word)
+        // {
+        //   return 0;
+        // }
       }
       return frequency; //Otherwise return the current frequency.
     }
