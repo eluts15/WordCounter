@@ -46,7 +46,7 @@ namespace WordCounter
       public void Test02_GetFrequencyOfSpecifiedWord_ReturnsTrue()
       {
         //Arrange
-        WordRepeatCounter newRepeatedWord = new WordRepeatCounter("my my my my welcome welcome welcome, to the land of Expectations!", "My"); //This should fail due to Uppercase conflict.
+        WordRepeatCounter newRepeatedWord = new WordRepeatCounter("my my my my welcome welcome welcome, to the land of Expectations!", "my"); //Now it will pass because letter casing is the same.
         //Assert
         Assert.Equal(4, newRepeatedWord.ObtainFrequency());
       }

@@ -7,8 +7,9 @@ TODO: Write a project description
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
 | Application gets simple user input | "hello world" | hello world |
-| Application takes takes in user's phrase | "my, my, my, welcome, welcome, welcome, to the land of Expectations." | my, my, my, welcome, welcome, welcome, to the land of Expectations.|
-| User specifies the word that they want to find frequency of if they wanted to find the frequency of the word "my" | "my, my, my, welcome, welcome, welcome, to the land of Expectations."| 3 |
+| Application takes takes in user's phrase | "my my my my welcome, welcome, welcome, to the land of Expectations!" | my my my my welcome welcome welcome, to the land of Expectations! |
+| User specifies the word that they want to find frequency of if they wanted to find the frequency of the word "my" | my my my my welcome welcome welcome, to the land of Expectations! | 3 |
+
 
 
 ## Installation
