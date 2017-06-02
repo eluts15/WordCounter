@@ -12,7 +12,7 @@ TODO: Write a project description
 
 ## Installation
 
-TODO: Describe the installation process
+Git Clone or Download at:
 
 ## Usage
 
