@@ -28,6 +28,7 @@ namespace WordCounter
       //
                                                                                        //not identical to the string that we are Asserting it to.
 
+      //Facts are truthy statements.
       [Fact]
       public void Test01_GetUserInputPhrase_ReturnsTrue()
       {
@@ -41,6 +42,15 @@ namespace WordCounter
         Assert.Equal("kittensNomNom", comparison02);
       }
 
-      
+      [Fact]
+      public void Test02_GetFrequencyOfSpecifiedWord_ReturnsTrue()
+      {
+        //Arrange
+        WordRepeatCounter newRepeatedWord = new WordRepeatCounter("my my my my welcome welcome welcome, to the land of Expectations!", "My"); //This should fail due to Uppercase conflict.
+        //Assert
+        Assert.Equal(4, newRepeatedWord.ObtainFrequency());
+      }
+
+
   }
 }
