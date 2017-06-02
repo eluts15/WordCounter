@@ -1,18 +1,33 @@
 # Word Counter Application
 
-TODO: Write a project description
+Simply type in a phrase along with your favorite word from the phrase and watch the magic.
 
 ## Specification
 
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| Application gets simple user input | "hello world" | hello world | (Old) |
+| Application gets simple user input | "hello world" | hello world |
 | Application takes takes in user's phrase | "my my my my welcome, welcome, welcome, to the land of Expectations!" | my my my my welcome welcome welcome, to the land of Expectations! |
 | User specifies the word that they want to find frequency of if they wanted to find the frequency of the word "my" | my my my my welcome welcome welcome, to the land of Expectations! | 4 |
 
-## Installation
+## Installation/Prerequisites
 
-Git Clone or Download at:
+Git Clone or Download at: https://github.com/eluts15/verbose-meme-team.git
+
+
+
+Runs on the .Net Framework
+
+Requires Nancy Web Framework located at: http://nancyfx.org/. You can also do this via Windows PowerShell with the Command:
+
+Install-Package Nancy
+
+PowerShell may prompt you to download Nuget. Download this if necessary, as it is required to by Nancy.
+
+All being said, the project also includes the project.lock.json so you can just use that I suppose.
+
+Run dnu restore if necessary to update dependencies.
+
 
 ## Usage
 
