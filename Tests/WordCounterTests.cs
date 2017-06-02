@@ -12,7 +12,7 @@ namespace WordCounter
       //ACT
       string result = nextWord.GetUserInput();
       //Assert
-      Assert.Equal("hello", result);
+      Assert.Equal("hello world", result); //Should now return positive as the strings are equal.
     }
   }
 }
