@@ -14,6 +14,22 @@ namespace WordCounter
       _word = word;
     }
 
+    public int ObtainFrequency()
+    {
+      string userWord = this.GetUsersWord(); //Store users word as a string.
+      string[] userPhrase = this.GetUserInputPhrase().Split(' '); //Use spaces as delimiter to create an array of words. //Dont forget ' ' vs " "
+      int frequency = 0;
+
+      foreach (string word in userPhrase)
+      {
+        if (userWord == word) //In the case that a match is found, increment frequency by 1.
+        {
+          frequency++;
+        }
+      }
+      return frequency; //Otherwise return the current frequency.
+    }
+
     //Getters and Setters
     public string GetUserInputPhrase()
     {

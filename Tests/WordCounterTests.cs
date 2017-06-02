@@ -31,14 +31,16 @@ namespace WordCounter
       [Fact]
       public void Test01_GetUserInputPhrase_ReturnsTrue()
       {
-      //Arrange
-      WordRepeatCounter newRepeatedWord = new WordRepeatCounter("kittensNomNom", "kittensNomNom");
-      //Act
-      string comparison01 = newRepeatedWord.GetUserInputPhrase();
-      string comparison02 = newRepeatedWord.GetUsersWord();
-      //Assert
-      Assert.Equal("kittensNomNom", comparison01);
-      Assert.Equal("kittensNomNom", comparison02);
-    }
+        //Arrange
+        WordRepeatCounter newRepeatedWord = new WordRepeatCounter("kittensNomNom", "kittensNomNom");
+        //Act
+        string comparison01 = newRepeatedWord.GetUserInputPhrase();
+        string comparison02 = newRepeatedWord.GetUsersWord();
+        //Assert
+        Assert.Equal("kittensNomNom", comparison01);
+        Assert.Equal("kittensNomNom", comparison02);
+      }
+
+      
   }
 }
