@@ -51,7 +51,7 @@ namespace WordCounter
         Assert.Equal(4, newRepeatedWord.ObtainFrequency());
       }
 
-      
+
 
 
   }

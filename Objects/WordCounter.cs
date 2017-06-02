@@ -1,5 +1,7 @@
 using System;
 
+//TODO Explore Regex to remove all punctuation as punctuation should not be considered as words.
+
 namespace WordCounter
 {
   public class WordRepeatCounter
