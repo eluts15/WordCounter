@@ -1,6 +1,7 @@
 using System;
 
-//TODO Explore Regex to remove all punctuation as punctuation should not be considered as words.
+//TODO Explore Regex Directive to remove all punctuation as punctuation should not be considered as words.
+//TODO Known bug: If no phrase is entered, count defaults to 1.
 
 namespace WordCounter
 {
