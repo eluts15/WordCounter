@@ -25,14 +25,14 @@ namespace WordCounter
 
       foreach (string word in userPhrase)
       {
-        if (userWord == word) //In the case that a match is found, increment frequency by 1.
+        if (userWord == "")
+        {
+          return 0;
+        }
+        else if (userWord == word) //In the case that a match is found, increment frequency by 1.
         {
           frequency++;
         }
-        // else if (userWord != word)
-        // {
-        //   return 0;
-        // }
       }
       return frequency; //Otherwise return the current frequency.
     }

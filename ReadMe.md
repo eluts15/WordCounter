@@ -49,9 +49,7 @@ Motivating text from the Phantom Tollbooth by Norton Juster
 
 ## Known Bugs
 
-1. In the case that nothing is entered and the form is submitted, the counter will still run.
-The outcome is it will still run and the outcome will be 1 instead of 0.
-
+1. None!
 
 ## License
 
