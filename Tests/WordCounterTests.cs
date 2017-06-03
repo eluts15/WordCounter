@@ -56,7 +56,7 @@ namespace WordCounter
       {
         //Arrange
         WordRepeatCounter newRepeatedWord = new WordRepeatCounter("", "");
-        Assert.Equal(1, newRepeatedWord.ObtainFrequency());
+        Assert.Equal(0, newRepeatedWord.ObtainFrequency());
       }
 
 
