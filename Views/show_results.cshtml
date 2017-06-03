@@ -1,5 +1,18 @@
-<h1>Here are your simply satisfactory results!</h1>
-<p>Spectacular Matches found: @Model.ObtainFrequency()</p><br>
-<p>Thanks for playing!</p>
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+<div class="container">
+  <h1>Here are your simply satisfactory results!</h1>
 
-<a href='/'>Back</a>
+<div class="alert alert-info">
+  <strong>Spectacular Matches found:  @Model.ObtainFrequency()</strong>
+</div>
+
+<div class="alert alert-success">
+  <strong>Thanks For Playing!!</strong> Press the Back button located below to play again!
+</div>
+
+  <ul class="pager">
+    <li><a href="/">Back</a></li>
+  </ul>
+</div>

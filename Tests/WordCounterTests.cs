@@ -33,6 +33,7 @@ namespace WordCounter
       {
         //Arrange
         WordRepeatCounter newRepeatedWord = new WordRepeatCounter("", "");
+        //Assert
         Assert.Equal(0, newRepeatedWord.ObtainFrequency());
       }
   }
