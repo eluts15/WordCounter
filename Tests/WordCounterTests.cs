@@ -51,7 +51,15 @@ namespace WordCounter
         Assert.Equal(4, newRepeatedWord.ObtainFrequency());
       }
 
-  
+      [Fact]
+      public void Test03_GetFrequencyOfSpecifiedWordIfEmpty_ReturnsTrue()
+      {
+        //Arrange
+        WordRepeatCounter newRepeatedWord = new WordRepeatCounter("", "");
+        Assert.Equal(1, newRepeatedWord.ObtainFrequency());
+      }
+
+
 
 
 
