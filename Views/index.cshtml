@@ -1,15 +1,15 @@
 @{
   Layout="Shared/_Layout.cshtml";
 }
-<div class="container">
+<div class="container" >
   <h1>Word Counter Application</h1>
-  <p>Keep track of those fancy, best-quality words such as "quagmire" and "flabbergast!!"<br>
+  <p>Keep track of those fancy, best-quality words such as <strong>quagmire</strong> and <strong>flabbergast!!</strong><br>
   Please enter a delightful phrase.  Along with your favorite word from that phrase.</p>
   <p>This simple application will return the frequency of the chosen word.</p>
 
   <form action="/show_results" method="post">
     <label for="users-input">Type in a Nice Phrase: </label>
-    <input name="users-input" type="text" placeholder="Your spectacular phrase!"></br>
+    <input name="users-input" type="text" placeholder="A spectacular phrase!"></br>
     <label for="word">Search for a nice Word: </label>
     <input name="sick-word-bro" type="text" placeholder="Input your word here!">
     <button type="submit" class="btn btn-info">
